@@ -9,8 +9,6 @@ fetch('http://localhost:3000/api/products')
   .catch(error => console.log(error));
 
   function displayData(data, obj, index){
-
-
     const dataArray = data;
   
     const container = document.getElementById('items');
